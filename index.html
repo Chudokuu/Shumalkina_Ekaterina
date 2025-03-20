@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шумалкина Екатерина Алексеевна</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h2 class="header-title">Список задач</h2>
+    </header>
+    <div class="main-container">
+        <div class="new-task_container">
+            <h2 class="new-task_title">Новая задача</h2>
+            <div class="new-task_input_container">
+                <input type="text" class="new-task_input" placeholder="Новая задача...">
+                <button class="new-task_button">+ Добавить</button>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <span class="task-title backlog">Бэклог</span>
+                <div class="task task-backlog">Выучить JS</div>
+                <div class="task task-backlog">Выучить React</div>
+                <div class="task task-backlog">Сделать домашку</div>
+            </div>
+    
+            <div class="column">
+                <span class="task-title process">В процессе</span>
+                <div class="task task-process">Выпить смузи</div>
+                <div class="task task-process">Попить воды</div>
+            </div>
+    
+            <div class="column">
+                <span class="task-title gotovo">Готово</span>
+                <div class="task task-gotovo">Позвонить маме</div>
+                <div class="task task-gotovo">Погладить кота</div>
+            </div>
+    
+            <div class="column">
+                <span class="task-title trash">Корзина</span>
+                <div class="task task-trash">Сходить погулять</div>
+                <div class="task task-trash">Прочитать Войну и мир</div>
+                <button class="delete-button">✕ Очистить</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
