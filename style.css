@@ -147,6 +147,6 @@ body{
     font-weight: bold;
     width: 100%;
 }
-.delete_button:hover {
+.delete-button:hover {
     background-color: #858585;
 }
