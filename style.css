@@ -91,7 +91,7 @@ body{
     background-color: #ffd966;
     color: #fff;
 }
-.gotovo{
+.done{
     background-color: #93c47d;
     color: #fff;
 }
@@ -129,7 +129,7 @@ body{
 .task-process::before{
     background-color: #ffd966;
 }
-.task-gotovo::before{
+.task-done::before{
     background-color: #93c47d;
 }
 .task-trash::before{
