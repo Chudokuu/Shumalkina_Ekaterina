@@ -81,6 +81,8 @@ body{
     display: inline-block;
     font-weight: bold;
     margin-bottom: 10px;
+    background-color: #999999;
+    color: #fff;
 }
 
 .backlog{
@@ -119,7 +121,7 @@ body{
     top: 0;
     width: 6px;
     height: 100%;
-    background-color: #2196f3;
+    background-color: #999999;
     border-radius: 5px 0 0 5px;
   }
 
