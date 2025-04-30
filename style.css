@@ -81,6 +81,8 @@ body{
     display: inline-block;
     font-weight: bold;
     margin-bottom: 10px;
+    background-color: #999999;
+    color: #fff;
 }
 
 .backlog{
@@ -103,13 +105,12 @@ body{
 .task{
     position: relative;
     background-color: #fff;
-    height: 45px;
     font-size: 15px;
     border-radius: 5px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    padding: 15px;
     margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
 }
 
 .task::before {
@@ -119,7 +120,7 @@ body{
     top: 0;
     width: 6px;
     height: 100%;
-    background-color: #2196f3;
+    background-color: #999999;
     border-radius: 5px 0 0 5px;
   }
 
@@ -136,6 +137,19 @@ body{
     background-color: #e06666;
 }
 
+.no-task{
+    position: relative;
+    background-color: #efefef;
+    font-size: 15px;
+    color: #c0c0c0;
+    border-radius: 5px;
+    border: 2px solid #c0c0c0;
+    padding: 13px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+}
+
 .delete-button{
     height: 40px;
     flex-grow: 1;
@@ -150,3 +164,8 @@ body{
 .delete-button:hover {
     background-color: #858585;
 }
+.delete-button:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}
+
